@@ -1,17 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibSass.NET", "LibSass.NET\LibSass.NET.csproj", "{4AD8B048-7A30-4873-8D11-C0A5273E9458}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibSass.NET.Tests", "LibSass.NET.Tests\LibSass.NET.Tests.csproj", "{E8696982-9738-4F73-B91F-6F083044937B}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibSass.NET.Web", "contrib\LibSass.NET.Web\LibSass.NET.Web.csproj", "{0E7055A4-5821-4DEF-9C7F-4A0045A7F692}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibSass.NET.Console", "contrib\LibSass.NET.Console\LibSass.NET.Console.csproj", "{E482CDC3-914C-4B97-BC1D-119DC16B659F}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "contrib", "contrib", "{6F6047F5-965C-4243-B344-0C39B9050352}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibSass.NET", "LibSass.NET\LibSass.NET.csproj", "{4AD8B048-7A30-4873-8D11-C0A5273E9458}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".SolutionItems", ".SolutionItems", "{BF6D6C96-3DCE-4162-83AD-606579095B2A}"
 	ProjectSection(SolutionItems) = preProject
@@ -35,24 +27,11 @@ Global
 		{4AD8B048-7A30-4873-8D11-C0A5273E9458}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4AD8B048-7A30-4873-8D11-C0A5273E9458}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4AD8B048-7A30-4873-8D11-C0A5273E9458}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E8696982-9738-4F73-B91F-6F083044937B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E8696982-9738-4F73-B91F-6F083044937B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E8696982-9738-4F73-B91F-6F083044937B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E8696982-9738-4F73-B91F-6F083044937B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0E7055A4-5821-4DEF-9C7F-4A0045A7F692}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0E7055A4-5821-4DEF-9C7F-4A0045A7F692}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0E7055A4-5821-4DEF-9C7F-4A0045A7F692}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0E7055A4-5821-4DEF-9C7F-4A0045A7F692}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E482CDC3-914C-4B97-BC1D-119DC16B659F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E482CDC3-914C-4B97-BC1D-119DC16B659F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E482CDC3-914C-4B97-BC1D-119DC16B659F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E482CDC3-914C-4B97-BC1D-119DC16B659F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{0E7055A4-5821-4DEF-9C7F-4A0045A7F692} = {6F6047F5-965C-4243-B344-0C39B9050352}
-		{E482CDC3-914C-4B97-BC1D-119DC16B659F} = {6F6047F5-965C-4243-B344-0C39B9050352}
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7DEAC699-5DEA-40E1-8FA3-F914F802AEC5}
 	EndGlobalSection
 EndGlobal

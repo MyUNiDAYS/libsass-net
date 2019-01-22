@@ -1,21 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
   <metadata>
-    <id>libsassnet</id>
+    <id>libsassnetstandard</id>
     <version>3.3.7</version>
-    <authors>Darren Kopp</authors>
-    <owners>Darren Kopp</owners>
+    <authors>Darren Kopp, trullock</authors>
+    <owners>Darren Kopp, trullock</owners>
     <licenseUrl>https://github.com/darrenkopp/libsass-net/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/darrenkopp/libsass-net/</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Allows you to use the LibSass compiler from .NET</description>
-    <copyright>Copyright © 2016 by Darren Kopp</copyright>
+    <copyright>Copyright © 2016 by Darren Kopp, Updated to .NET Standard 2.0 by trullock 2018</copyright>
     <tags>SASS SCSS CSS LibSass</tags>
   </metadata>
   <files>
-    <file src="..\bin\$configuration$\libsass64.dll" target="build\libsass64.dll" />
-    <file src="..\bin\$configuration$\libsass32.dll" target="build\libsass32.dll" />
+    <file src="..\bin\Release\netstandard2.0\libsass64.dll" target="build\libsass64.dll" />
+    <file src="..\bin\Release\netstandard2.0\libsass32.dll" target="build\libsass32.dll" />
     <file src="libsassnet.targets" target="build\libsassnet.targets" />
-    <file src="..\bin\$configuration$\LibSass.NET.dll" target="lib\net40\LibSass.NET.dll" />
+    <file src="..\bin\Release\netstandard2.0\LibSass.NET.dll" target="lib\netstandard2.0\LibSass.NET.dll" />
   </files>
 </package>

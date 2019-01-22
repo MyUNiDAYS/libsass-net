@@ -1,8 +1,0 @@
-[submodule "tests/sass-spec"]
-	path = LibSass.NET.Tests/Fixtures/sass-spec
-	url = https://github.com/sass/sass-spec
-        branch = master
-[submodule "libsass"]
-	path = LibSass
-	url = https://github.com/sass/libsass
-        branch = master
