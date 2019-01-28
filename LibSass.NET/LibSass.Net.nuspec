@@ -9,13 +9,13 @@
     <projectUrl>https://github.com/darrenkopp/libsass-net/</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Allows you to use the LibSass compiler from .NET</description>
-    <copyright>Copyright © 2016 by Darren Kopp, Updated to .NET Standard 2.0 by trullock 2018</copyright>
+    <copyright>Copyright © 2016 by Darren Kopp, Updated to .NET Standard 2.0 by trullock 2019</copyright>
     <tags>SASS SCSS CSS LibSass</tags>
   </metadata>
   <files>
     <file src="..\bin\Release\netstandard2.0\libsass64.dll" target="build\libsass64.dll" />
     <file src="..\bin\Release\netstandard2.0\libsass32.dll" target="build\libsass32.dll" />
-    <file src="libsassnet.targets" target="build\libsassnet.targets" />
+    <file src="libsassnetstandard.targets" target="build\libsassnetstandard.targets" />
     <file src="..\bin\Release\netstandard2.0\LibSass.NET.dll" target="lib\netstandard2.0\LibSass.NET.dll" />
   </files>
 </package>
